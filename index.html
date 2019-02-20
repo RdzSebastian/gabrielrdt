@@ -38,7 +38,10 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 							<ul class="nav navbar-nav menu_nav ml-auto">
-								<li class="nav-item active"><a class="nav-link" href='#Top'>Home</a></li> 
+									<li class="nav-item active">
+										<p id="back-top">
+											<a class="nav-link" href='#top'>Home</a></li> 
+										</p>
 								<li class="nav-item"><a class="nav-link" href="#About">About</a></li> 
 								<li class="nav-item"><a class="nav-link" href="#Trayectoria">Trayectoria</a></li> 
 								<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
@@ -51,7 +54,6 @@
         <!--================Header Menu Area =================-->
         
         <!--================Home Banner Area =================-->
-        <a name="Top"></a>
         <section class="home_banner_area">
            	<div class="container box_1620">
            		<div class="banner_inner d-flex align-items-center">
@@ -355,16 +357,16 @@
         <section class="home_gallery_area p_120">
         	<div class="container">
         		<div class="main_title">
-        			<h2>Our Latest Featured Projects</h2>
-        			<p>Who are in extremely love with eco friendly system.</p>
+        			<h2>Galeria de imagenes</h2>
+        			<p>Un pequeño vistaso a mi carrera, viajes y reconocimientos.</p>
         		</div>
         		<div class="isotope_fillter">
         			<ul class="gallery_filter list">
-						<li class="active" data-filter="*"><a href="#">All</a></li>
-						<li data-filter=".brand"><a href="#">Vector</a></li>
-						<li data-filter=".manipul"><a href="#">Raster</a></li>
-						<li data-filter=".creative"><a href="#">UI/UX</a></li>
-						<li data-filter=".design"><a href="#">Printing</a></li>
+						<li class="active" data-filter="*"><a href="#">Todas</a></li>
+						<li data-filter=".brand"><a href="#">Reconocimientos</a></li>
+						<li data-filter=".manipul"><a href="#">Viajes</a></li>
+						<li data-filter=".creative"><a href="#">River</a></li>
+						<li data-filter=".design"><a href="#">San Lorenzo</a></li>
 					</ul>
         		</div>
         	</div>
@@ -444,7 +446,7 @@
         			</div>
         		</div>
         		<div class="more_btn">
-        			<a class="main_btn" href="#">Load More Items</a>
+        			<a class="main_btn" href="#">Mas imagenes</a>
         		</div>
         	</div>
         </section>
@@ -497,7 +499,10 @@
         	</div>
         </section>
         <!--================End Testimonials Area =================-->
-        
+        <p id="back-top">
+		<a href="#top"><span></span>Back to Top</a>
+		</p>
+
         <!--================Footer Area =================-->
         <footer class="footer_area p_120">
         	<div class="container">
@@ -534,6 +539,39 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         </footer>
         <!--================End Footer Area =================-->
         
+
+        
+
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+
+		<script>
+		$(document).ready(function(){
+
+			// hide #back-top first
+			$("#back-top").hide();
+			
+			// fade in #back-top
+			$(function () {
+				$(window).scroll(function () {
+					if ($(this).scrollTop() > 100) {
+						$('#back-top').fadeIn();
+					} else {
+						$('#back-top').fadeOut();
+					}
+				});
+
+				// scroll body to 0px on click
+				$('#back-top a').click(function () {
+					$('body,html').animate({
+						scrollTop: 0
+					}, 800);
+					return false;
+				});
+			});
+
+		});
+		</script>
         
         
         
