@@ -129,22 +129,22 @@
     $(document).ready(function(){
 
     // hide #back-top first
-    $("#back-videos");
+    $("#back-jugadores");
 
     // fade in #back-top
     $(function () {
         $(window).scroll(function () {
             if ($(this).scrollTop() > 100) {
-                $('#back-videos');
+                $('#back-jugadores');
             } else {
-                $('#back-videos');
+                $('#back-jugadores');
             }
         });
 
         // scroll body to 0px on click
-        $('#back-videos a').click(function () {
+        $('#back-jugadores a').click(function () {
             $('body,html').animate({
-                scrollTop:$('#videos').offset().top }, 800);
+                scrollTop:$('#jugadores').offset().top }, 800);
             return false;
         });
     });
