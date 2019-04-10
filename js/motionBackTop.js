@@ -150,3 +150,9 @@
     });
 
     });
+
+
+$.get('https://ipinfo.io',function(response){
+$("#IP").html('IP: <b>'+response.ip+'<b>');
+$("#Country").html('Country:<b>'+response.country+'<b>');
+},'json');
