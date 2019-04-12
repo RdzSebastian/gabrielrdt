@@ -27,6 +27,51 @@
     <body>
         
         <!--================ Header Menu Area =================-->
+
+
+        <!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MultiL</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+
+
+    <a href="#en" data-reload>English</a>
+  </br>
+    <a href="#es" data-reload>Español</a>
+
+  <p id=hi>
+    Welcome Everyone
+  </p>
+
+
+  <script>
+    var dataReload = document.querySelectorAll("[data-reload]");
+
+    var lenguaje = {
+      en: {
+        welcome: "Welcome Everyone!"
+      },
+      es: {
+        welcome: "Bienvenidos todos!"
+      }
+    }
+
+    if(window.location.hash){
+      if(window.location.hash === "#es"){
+        hi.textContent = lenguaje.es.welcome;
+      }
+    }
+
+    for(i=0; i<=dataReload.length; i++){
+      dataReload[i].onclick = function(){
+        location.reload(true);
+      }
+    }
+  </script>
+</body> --> 
         <header class="header_area">
             <div class="main_menu">
             	<nav class="navbar navbar-expand-lg navbar-light">
@@ -49,17 +94,17 @@
 								</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="indexEn.html">
+								<a class="nav-link" href="index.html">
 								<img src="img/blank.gif" class="flag flag-us" alt="English" />
 								</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="indexDe.html">
+								<a class="nav-link" href="index.html">
 								<img src="img/blank.gif" class="flag flag-de" alt="Deutsch" />
 								</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="indexFr.html">
+								<a class="nav-link" href="index.html">
 								<img src="img/blank.gif" class="flag flag-fr" alt="Francais" />
 								</a>
 							</li>
