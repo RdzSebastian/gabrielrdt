@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -47,30 +47,6 @@
   </p>
 
 
-  <script>
-    var dataReload = document.querySelectorAll("[data-reload]");
-
-    var lenguaje = {
-      en: {
-        welcome: "Welcome Everyone!"
-      },
-      es: {
-        welcome: "Bienvenidos todos!"
-      }
-    }
-
-    if(window.location.hash){
-      if(window.location.hash === "#es"){
-        hi.textContent = lenguaje.es.welcome;
-      }
-    }
-
-    for(i=0; i<=dataReload.length; i++){
-      dataReload[i].onclick = function(){
-        location.reload(true);
-      }
-    }
-  </script>
 </body> --> 
         <header class="header_area">
             <div class="main_menu">
@@ -89,22 +65,22 @@
 							<!-- Idioms flags -->
 						<ul class="nav navbar-justified">
 							<li class="nav-item active">
-								<a class="nav-link" href="index.html"> 
+								<a href="#es" data-reload> 
 									<img src="img/blank.gif" class="flag flag-es" alt="Español" />
 								</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="index.html">
+								<a href="#en" data-reload>
 								<img src="img/blank.gif" class="flag flag-us" alt="English" />
 								</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="index.html">
+								<a href="#de" data-reload>
 								<img src="img/blank.gif" class="flag flag-de" alt="Deutsch" />
 								</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="index.html">
+								<a href="#fr" data-reload>
 								<img src="img/blank.gif" class="flag flag-fr" alt="Francais" />
 								</a>
 							</li>
@@ -113,17 +89,42 @@
 
 						<ul class="nav navbar-nav menu_nav ml-auto">
 							<li class="nav-item active">
-								<p id="back-home"><a class="nav-link" href='#top'>home</a></li> </p>
+								<p id="back-home">
+									<a class="nav-link" href='#top'>
+									</a>
+								</p>
+							</li>
 							<li class="nav-item">
-								<p id="back-sobremi"><a class="nav-link" href="#sobremi">sobre mi</a></li></p>
+								<p id="back-sobremi">
+									<a class="nav-link" href="#sobremi">sobre mi
+									</a>
+								</p>
+							</li>
 							<li class="nav-item">
-								<p id="back-trayectoria"><a class="nav-link" href="#trayectoria">trayectoria</a></li></p>
+								<p id="back-trayectoria">
+									<a class="nav-link" href="#trayectoria">trayectoria
+									</a>
+								</p>
+							</li>
 							<li class="nav-item">
-								<p id="back-jugadores"><a class="nav-link" href="#jugadores">Jugadores Fichados</a></li></p>
+								<p id="back-jugadores">
+									<a class="nav-link" href="#jugadores">Jugadores Fichados
+									</a>
+								</p>
+							</li>
 							<li class="nav-item">
-								<p id="back-fotos"><a class="nav-link" href="#fotos">fotos</a></li></p>
+								<p id="back-fotos">
+									<a class="nav-link" href="#fotos">fotos
+									</a>
+								</p>
+							</li>
 							<li class="nav-item">
-								<p id="back-entrevistas"><a class="nav-link" href="#entrevistas">entrevistas</a></li></p>
+								<p id="back-entrevistas">
+									<a class="nav-link" href="#entrevistas">
+									entrevistas
+								</a>
+								</p>
+							</li>
 						</ul>
 					</div>
             	</nav>
@@ -1470,7 +1471,7 @@
         					</div>
         					<div class="g_item_text">
         						<h4>El Ex-Entrenador Del PSV Guus Hiddink</h4>
-        						<p>Eindhoven, Alemania 2001</p>
+        						<p>Eindhoven, Holanda 2005</p>
         					</div>
         				</div>
         			</div>
@@ -1502,7 +1503,7 @@
         					</div>
         					<div class="g_item_text">
         						<h4>Presidente Del PSV, Rob Westerkof</h4>
-        						<p>Eindhoven, Alemania 2001</p>
+        						<p>Eindhoven, Holanda 2005</p>
         					</div>
         				</div>
         			</div>
@@ -1515,7 +1516,7 @@
         					</div>
         					<div class="g_item_text">
         						<h4>Campus FC Barcelona</h4>
-        						<p>España 2016</p>
+        						<p>Barcelona, España 2016</p>
         					</div>
         				</div>
         			</div>
@@ -1681,5 +1682,6 @@
         <script src="vendors/counter-up/jquery.counterup.min.js"></script>
         <script src="js/mail-script.js"></script>
         <script src="js/theme.js"></script>
+        <script src="js/translate.js"></script>
     </body>
 </html>
