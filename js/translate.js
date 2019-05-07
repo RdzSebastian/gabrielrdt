@@ -92,6 +92,6 @@
 
     for(i=0; i<=dataReload.length; i++){
       dataReload[i].onclick = function(){
-        location.reload(true);
+        window.location.reload(true);
       }
     }
