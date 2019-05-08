@@ -94,8 +94,9 @@
       }
     }
 
-    for(i=0; i<=dataReload.length; i++){
-      dataReload[i].onclick = function(){
-        window.location.reload(true);
-      }
+    for(let i=0; i<dataReload.length; i++){
+        dataReload[i].onclick = function(){
+            window.location.hash = dataReload[i].hash;
+            window.location.reload(true);
+        }
     }
