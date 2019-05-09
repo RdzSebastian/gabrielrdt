@@ -90,15 +90,15 @@
         trayectoria14: "",
         trayectoria15: "",
         trayectoria16: "",
-        jugador: "",
-        galeria1: "",
+        jugador: "Spieler-Unterschriften",
+        galeria1: "Bilder",
         galeria2: "",
         galeria3: "",
         galeria4: "",
         galeria5: "",
         galeria6: "",
         galeria7: "",
-        entrevistas1: "",
+        entrevistas1: "Interviews",
         entrevistas2: ""
       },
       fr: {
