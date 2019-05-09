@@ -48,6 +48,22 @@
         galeria5: "RECOGNITIONS",
         galeria6: "RIVER PLATE",
         galeria7: "SAN LORENZO ",
+        galeria8: "Real Madrid and River Plate’s staff",
+        galeria9: "Dallas, USA 2017",
+        galeria10: "With the president Erich Vogel",
+        galeria11: "Zurich, Switzerland 2008",
+        galeria12: "Directing first division",
+        galeria13: "Leverkusen, Germany 2001",
+        galeria14: "International congress",
+        galeria15: "Sheraton hotel ACG Congress",
+        galeria16: "Dallas, USA 2017",
+        galeria17: "Drug abuse prevention program",
+        galeria18: "Campus PSV with Guus Hiddink",
+        galeria19: "Eindhoven, Holland 2005",
+        galeria20: "Barcelona, Spain 2016",
+        galeria21: "Champions for kids",
+        galeria22: "With the president of PSV, Rob Westerkof",
+        galeria23: "Eindhoven, Holland 2005",
         entrevistas1: "Interviews",
         entrevistas2: "Notes and reports from journalists."
       },
@@ -98,6 +114,22 @@
         galeria5: "",
         galeria6: "",
         galeria7: "",
+        galeria8: "",
+        galeria9: "",
+        galeria10: "",
+        galeria11: "",
+        galeria12: "",
+        galeria13: "",
+        galeria14: "",
+        galeria15: "",
+        galeria16: "",
+        galeria17: "",
+        galeria18: "",
+        galeria19: "",
+        galeria20: "",
+        galeria21: "",
+        galeria22: "",
+        galeria23: "",
         entrevistas1: "Interviews",
         entrevistas2: ""
       },
@@ -148,6 +180,22 @@
         galeria5: "",
         galeria6: "",
         galeria7: "",
+        galeria8: "",
+        galeria9: "",
+        galeria10: "",
+        galeria11: "",
+        galeria12: "",
+        galeria13: "",
+        galeria14: "",
+        galeria15: "",
+        galeria16: "",
+        galeria17: "",
+        galeria18: "",
+        galeria19: "",
+        galeria20: "",
+        galeria21: "",
+        galeria22: "",
+        galeria23: "",
         entrevistas1: "",
         entrevistas2: ""
       }
@@ -201,6 +249,22 @@
         galeria5.textContent = lenguaje.en.galeria5;
         galeria6.textContent = lenguaje.en.galeria6;
         galeria7.textContent = lenguaje.en.galeria7;
+        galeria8.textContent = lenguaje.en.galeria8;
+        galeria9.textContent = lenguaje.en.galeria9;
+        galeria10.textContent = lenguaje.en.galeria10;
+        galeria11.textContent = lenguaje.en.galeria11;
+        galeria12.textContent = lenguaje.en.galeria12;
+        galeria13.textContent = lenguaje.en.galeria13;
+        galeria14.textContent = lenguaje.en.galeria14;
+        galeria15.textContent = lenguaje.en.galeria15;
+        galeria16.textContent = lenguaje.en.galeria16;
+        galeria17.textContent = lenguaje.en.galeria17;
+        galeria18.textContent = lenguaje.en.galeria18;
+        galeria19.textContent = lenguaje.en.galeria19;
+        galeria20.textContent = lenguaje.en.galeria20;
+        galeria21.textContent = lenguaje.en.galeria21;
+        galeria22.textContent = lenguaje.en.galeria22;
+        galeria23.textContent = lenguaje.en.galeria23;
         entrevistas1.textContent = lenguaje.en.entrevistas1;
         entrevistas2.textContent = lenguaje.en.entrevistas2;
       }
@@ -253,6 +317,22 @@
         galeria5.textContent = lenguaje.de.galeria5;
         galeria6.textContent = lenguaje.de.galeria6;
         galeria7.textContent = lenguaje.de.galeria7;
+        galeria8.textContent = lenguaje.de.galeria8;
+        galeria9.textContent = lenguaje.de.galeria9;
+        galeria10.textContent = lenguaje.de.galeria10;
+        galeria11.textContent = lenguaje.de.galeria11;
+        galeria12.textContent = lenguaje.de.galeria12;
+        galeria13.textContent = lenguaje.de.galeria13;
+        galeria14.textContent = lenguaje.de.galeria14;
+        galeria15.textContent = lenguaje.de.galeria15;
+        galeria16.textContent = lenguaje.de.galeria16;
+        galeria17.textContent = lenguaje.de.galeria17;
+        galeria18.textContent = lenguaje.de.galeria18;
+        galeria19.textContent = lenguaje.de.galeria19;
+        galeria20.textContent = lenguaje.de.galeria20;
+        galeria21.textContent = lenguaje.de.galeria21;
+        galeria22.textContent = lenguaje.de.galeria22;
+        galeria23.textContent = lenguaje.de.galeria23;
         entrevistas1.textContent = lenguaje.de.entrevistas1;
         entrevistas2.textContent = lenguaje.de.entrevistas2;
       }
@@ -305,6 +385,22 @@
         galeria5.textContent = lenguaje.fr.galeria5;
         galeria6.textContent = lenguaje.fr.galeria6;
         galeria7.textContent = lenguaje.fr.galeria7;
+        galeria8.textContent = lenguaje.fr.galeria8;
+        galeria9.textContent = lenguaje.fr.galeria9;
+        galeria10.textContent = lenguaje.fr.galeria10;
+        galeria11.textContent = lenguaje.fr.galeria11;
+        galeria12.textContent = lenguaje.fr.galeria12;
+        galeria13.textContent = lenguaje.fr.galeria13;
+        galeria14.textContent = lenguaje.fr.galeria14;
+        galeria15.textContent = lenguaje.fr.galeria15;
+        galeria16.textContent = lenguaje.fr.galeria16;
+        galeria17.textContent = lenguaje.fr.galeria17;
+        galeria18.textContent = lenguaje.fr.galeria18;
+        galeria19.textContent = lenguaje.fr.galeria19;
+        galeria20.textContent = lenguaje.fr.galeria20;
+        galeria21.textContent = lenguaje.fr.galeria21;
+        galeria22.textContent = lenguaje.fr.galeria22;
+        galeria23.textContent = lenguaje.fr.galeria23;
         entrevistas1.textContent = lenguaje.fr.entrevistas1;
         entrevistas2.textContent = lenguaje.fr.entrevistas2;
       }
