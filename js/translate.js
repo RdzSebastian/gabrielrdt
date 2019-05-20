@@ -64,8 +64,9 @@
         galeria21: "Champions for kids",
         galeria22: "With the president of PSV, Rob Westerkof",
         galeria23: "Eindhoven, Netherlands 2005",
-        galeria24: "Drug abuse prevention program",
-        galeria25: "Telefe cup champions",
+        //galeria24: "Drug abuse prevention program",
+        galeria25: "Directing first division",
+        galeria26: "Telefe cup champions",
         entrevistas1: "Interviews",
         entrevistas2: "Notes and reports from journalists."
       },
@@ -132,8 +133,9 @@
         galeria21: "Meister für die Kinder",
         galeria22: "Mit dem präsidenten von PSV, Rob Westerkof",
         galeria23: "Eindhoven, Niederlande 2005",
-        galeria24: "Programm zur Verhinderung von Drogenmissbrauch",
-        galeria25: "Telefe cup champions",
+        //galeria24: "Programm zur Verhinderung von Drogenmissbrauch",
+        galeria25: "Technische Richtung zur ersten Liga",
+        galeria26: "Telefe cup champions",
         entrevistas1: "Interviews",
         entrevistas2: "Notizen in Zeitungs- und Journalistenrezensionen"
       },
@@ -200,8 +202,9 @@
         galeria21: "",
         galeria22: "",
         galeria23: "",
-        galeria24: "",
+        //galeria24: "",
         galeria25: "",
+        galeria26: "",
         entrevistas1: "",
         entrevistas2: ""
       }
@@ -271,8 +274,9 @@
         galeria21.textContent = lenguaje.en.galeria21;
         galeria22.textContent = lenguaje.en.galeria22;
         galeria23.textContent = lenguaje.en.galeria23;
-        galeria24.textContent = lenguaje.en.galeria24;
+        //galeria24.textContent = lenguaje.en.galeria24;
         galeria25.textContent = lenguaje.en.galeria25;
+        galeria26.textContent = lenguaje.en.galeria26;
         entrevistas1.textContent = lenguaje.en.entrevistas1;
         entrevistas2.textContent = lenguaje.en.entrevistas2;
       }
@@ -341,8 +345,9 @@
         galeria21.textContent = lenguaje.de.galeria21;
         galeria22.textContent = lenguaje.de.galeria22;
         galeria23.textContent = lenguaje.de.galeria23;
-        galeria24.textContent = lenguaje.de.galeria24;
+        //galeria24.textContent = lenguaje.de.galeria24;
         galeria25.textContent = lenguaje.de.galeria25;
+        galeria26.textContent = lenguaje.de.galeria26;
         entrevistas1.textContent = lenguaje.de.entrevistas1;
         entrevistas2.textContent = lenguaje.de.entrevistas2;
       }
@@ -411,8 +416,9 @@
         galeria21.textContent = lenguaje.fr.galeria21;
         galeria22.textContent = lenguaje.fr.galeria22;
         galeria23.textContent = lenguaje.fr.galeria23;
-        galeria24.textContent = lenguaje.fr.galeria24;
+        //galeria24.textContent = lenguaje.fr.galeria24;
         galeria25.textContent = lenguaje.fr.galeria25;
+        galeria26.textContent = lenguaje.fr.galeria26;
         entrevistas1.textContent = lenguaje.fr.entrevistas1;
         entrevistas2.textContent = lenguaje.fr.entrevistas2;
       }
