@@ -11,6 +11,7 @@
         home1: "CURRENT GENERAL MANAGER OF RIVER PLATE YOUTH DIVISION",
         home2: "Coach with over 38 years of experience in youth and profesional soccer",
         home3: "January 30th, 1960",
+        home4: "Buenos Aires, Argentina",
         sobreMi1: "ABOUT ME",
         sobreMi2: "Youth soccer coordinator. Trainer and recruiter of players. Manager of AF Parque Chas.",
         sobreMi3: "My main goal is to transmit values, ethical principles and integrity in order to form good human being for the future",
@@ -80,6 +81,7 @@
         home1: "DERZEITIGER GENERALKOORDINATOR FÜR KINDER UND JUGENDLICHE DES RIVER PLATE CLUBS",
         home2: "Technischer Direktor mit mehr als 38 Jahren Erfahrung im Jugend- und Profifußball",
         home3: "Der 30. Januar 1960",
+        home4: "Buenos Aires, Argentinien",
         sobreMi1: "Über",
         sobreMi2: "Koordinator für Kinder- und Jugendfußball. Trainer und Rekrutierer von Spielern. Fußballdirektor von AF Parque Chas.",
         sobreMi3: "Mein Hauptziel ist es, Werte, Ethik und Ehrlichkeit zu vermitteln, um gute Menschen für morgen zu bilden",
@@ -101,10 +103,10 @@
         trayectoria6: "Koordinator die reserve abteilung(U-21)",
         trayectoria7: "Koordinator für Kinder- und Jugendkategorien",
         trayectoria8: "Fußballkoordinator für Kinder",
-		trayectoria9: "2014 - - heute",
+		trayectoria9: "2014 - Gegenwärtig",
         trayectoria10: "Koordinator für Kinder- und Jugendkategorien",
         trayectoria11: "Technischer Direktor",
-		trayectoria12: "1991 - - heute",
+		trayectoria12: "1991 - Gegenwärtig",
         trayectoria13: "Technischer Direktor",
         trayectoria14: "Spiel 14",
         trayectoria15: "Spiele 10 bis 20",
@@ -149,6 +151,7 @@
         home1: "",
         home2: "",
         home3: "",
+        home4: "",
         sobreMi1: "",
         sobreMi2: "",
         sobreMi3: "",
@@ -221,6 +224,7 @@
         home1.textContent = lenguaje.en.home1;
         home2.textContent = lenguaje.en.home2;
         home3.textContent = lenguaje.en.home3;
+        home4.textContent = lenguaje.en.home4;
         sobreMi1.textContent = lenguaje.en.sobreMi1;
         sobreMi2.textContent = lenguaje.en.sobreMi2;
         sobreMi3.textContent = lenguaje.en.sobreMi3;
@@ -292,6 +296,7 @@
         home1.textContent = lenguaje.de.home1;
         home2.textContent = lenguaje.de.home2;
         home3.textContent = lenguaje.de.home3;
+        home4.textContent = lenguaje.de.home4;
         sobreMi1.textContent = lenguaje.de.sobreMi1;
         sobreMi2.textContent = lenguaje.de.sobreMi2;
         sobreMi3.textContent = lenguaje.de.sobreMi3;
@@ -363,6 +368,7 @@
         home1.textContent = lenguaje.fr.home1;
         home2.textContent = lenguaje.fr.home2;
         home3.textContent = lenguaje.fr.home3;
+        home4.textContent = lenguaje.fr.home4;
         sobreMi1.textContent = lenguaje.fr.sobreMi1;
         sobreMi2.textContent = lenguaje.fr.sobreMi2;
         sobreMi3.textContent = lenguaje.fr.sobreMi3;
